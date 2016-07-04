@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是一个标题。"
+        android:layout_marginBottom="5dp"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:maxLines="2"
+        android:text="这是一个ITEM的描述，这是一个测试样式Hello World!!这是一个ITEM的描述Hello World!!"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_desc"
+        android:layout_marginTop="5dp"
+        android:text="2016-07-04"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_desc"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:text="10086"
+        android:layout_marginRight="5dp"
+        android:padding="3dp"
+        android:textSize="12sp" />
+</RelativeLayout>

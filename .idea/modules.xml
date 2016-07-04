@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AllPractice.iml" filepath="$PROJECT_DIR$/AllPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseadapter/baseadapter.iml" filepath="$PROJECT_DIR$/baseadapter/baseadapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/packagemanagerpractice/packagemanagerpractice.iml" filepath="$PROJECT_DIR$/packagemanagerpractice/packagemanagerpractice.iml" />
     </modules>
   </component>
